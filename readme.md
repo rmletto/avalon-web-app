@@ -1,5 +1,8 @@
 # Avalon Web Application
 
+## Repository Note
+This repository was moved from an old one that contained solutions to assignment code in a course I did. To avoid any future drama with cheating and academic integrity, I deleted the old repository and kept around this project. This effectively deletes the commit history of this repository, unfortunately.
+
 ## Getting Started
 Here's everthing you need to know to set up the program so that you can play a game of Avalon!
 
