@@ -1,0 +1,16 @@
+{
+    "name": "avalon-web-app-node-server",
+    "version": "1.0.0",
+    "description": "NodeJS server for WebSocket communications",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node main.js",
+        "debug": "node --inspect main.js"
+    },
+    "author": "Ryan Letto, Ayby",
+    "license": "ISC",
+    "dependencies": {
+        "socket.io": "^2.3.0"
+    }
+}

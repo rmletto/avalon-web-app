@@ -1,0 +1,30 @@
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #60110a;
+}
+
+.App {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    background-color: #933f31;
+    color: white;
+}
+
+button:hover {
+    background-color: #60110a;
+}
+
+button:active {
+    background-color: #60110a;
+    transform: translateY(4px);
+}

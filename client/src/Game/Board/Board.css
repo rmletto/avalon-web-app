@@ -1,0 +1,85 @@
+/* background stuff for the game board */
+.grid-board {
+	display: grid;
+	grid-template-columns: auto auto auto;
+  	grid-gap: 10px;
+	background-color: #b28a25;
+  	padding: 10px;
+  	justify-items: stretch;
+}
+.grid-board > div {
+	background-color: #e7ba55;
+  	text-align: center;
+  	padding: 20px 0;
+  	font-size: 30px;
+  	justify-items: center;
+}
+
+.white-space {
+ 	grid-column-start: 1;
+ 	grid-column-end: 5;
+  	grid-row-start: 1;
+  	grid-row-end: 2;
+}
+.white-space > div {
+  	background-color: #e7ba55;
+  	text-align: center;
+  	padding: 30px 0;
+  	font-size: 30px;
+  	justify-items: center;
+}
+
+.grid-quests-name{
+	grid-column-start: 1;
+  	grid-column-end: 5;
+  	grid-row-start: 2;
+  	grid-row-end: 3;
+}
+.grid-quests-name{
+	font-size: 30px;
+}
+
+.grid-quests {
+  	grid-column-start: 1;
+  	grid-column-end: 5;
+  	grid-row-start: 3;
+  	grid-row-end: 4;
+}
+
+.grid-vote-tracker-name {
+	grid-column-start: 1;
+  	grid-column-end: 3;
+  	grid-row-start: 4;
+  	grid-row-end: 5;
+	
+}
+.grid-vote-tracker-name > div {
+	font-size: 20px;
+}
+
+
+.grid-vote-tracker {
+  	grid-column-start: 1;
+  	grid-column-end: 3;
+  	grid-row-start: 5;
+  	grid-row-end: 6;
+}
+
+.flex-container {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around
+}
+.board-circles {
+	background-color: rgba(255, 255, 255, 0.9);
+  	margin: 0.5em;
+	border-radius: 50%;
+  	font-size: 30px;
+	width: 100%;
+}
+.board-circles:before {
+	content: "";
+	display: inline-block;
+	padding-top: 100%;
+}

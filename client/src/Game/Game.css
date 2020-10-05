@@ -1,0 +1,74 @@
+.GameOuter {
+	min-height: 100%;
+}
+
+.GameInner {
+	margin: 5px;
+	display: flex;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.GameHeader {
+	border: solid 2px #370000;
+	width: 100%;
+	margin: 5px;
+	padding: 4px;
+	background-color: hsla(42, 75%, 62%, 0.9);
+	font-weight: bold;
+	box-shadow: 2px 2px 3px 2px #370000;
+}
+
+.GameBoard {
+	border: solid 2px #370000;
+	width: 70%;
+	margin: 5px;
+	box-shadow: 2px 2px 3px 2px #370000;
+}
+
+.GameInput {
+	width: auto;
+	border: solid 2px #370000;
+	margin: 5px;
+	padding: 5px;
+	background-color: hsla(42, 75%, 62%, 0.9);
+	box-shadow: 2px 2px 3px 2px #370000;
+}
+
+.GamePlayerList {
+	border: solid 2px #370000;
+	width: 28%;
+	min-width: min-content;
+	margin: 5px;
+	background-color: #933f31;
+	box-shadow: 2px 2px 3px 2px #370000;
+}
+
+.GameChat {
+	width: 75%;
+	max-height: 100px;
+	border: solid 2px #370000;
+	margin: 5px;
+	background-color: hsla(42, 75%, 62%, 0.9);
+	overflow: scroll;
+	box-shadow: 2px 2px 1px 2px #370000;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.GameBoard {
+		width: 100%;
+	}
+
+	.GamePlayerList {
+		width: 100%;
+	}
+
+	.GameChat {
+		width: 100%;
+	}
+
+	.GameInput {
+		width: 100%;
+	}
+}

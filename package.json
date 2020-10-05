@@ -1,0 +1,21 @@
+{
+    "name": "avalon-web-app",
+    "version": "1.0.0",
+    "description": "Avalon Web Application (React client and NodeJS backend)",
+    "main": "server/main.js",
+    "devDependencies": {
+        "concurrently": "^5.1.0",
+        "express": "^4.17.1"
+    },
+    "scripts": {
+        "install": "npm install --prefix client && npm install --prefix server",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "client": "npm start --prefix client",
+        "server": "npm start --prefix server",
+        "start": "concurrently \"npm run server\" \"npm run client\"",
+        "build": "npm run-script build --prefix client",
+        "production": "concurrently \"node production.js\" \"npm run server\""
+    },
+    "author": "Ryan Letto",
+    "license": "ISC"
+}

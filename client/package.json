@@ -1,0 +1,38 @@
+{
+    "name": "avalon-web-app-react",
+    "version": "1.0.0",
+    "description": "Client-side code for the Avalon Web App (the React)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "author": "Ryan Letto, Aaron Andrews, Julia Dawe",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.8.6",
+        "@babel/preset-env": "^7.8.6",
+        "@babel/preset-react": "^7.8.3",
+        "babel-loader": "^8.0.6",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.4.2",
+        "file-loader": "^5.1.0",
+        "html-loader": "^1.1.0",
+        "html-webpack-plugin": "^4.0.4",
+        "react-hot-loader": "^4.12.19",
+        "style-loader": "^1.1.3",
+        "webpack": "^4.41.6",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3",
+        "webpack-merge": "^4.2.2"
+    },
+    "dependencies": {
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
+        "react-router-dom": "^5.1.2",
+        "socket.io-client": "^2.3.0",
+        "url-loader": "^3.0.0"
+    }
+}

@@ -1,0 +1,35 @@
+.littleListOuter{
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr;
+    grid-template-columns: 10% 60% 20%;
+    grid-gap: 5px;
+    
+}
+
+.plyrNames{
+    grid-column: 2;
+    text-align: center;
+}
+
+.personName {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.roleName {
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+.plyrInfo{
+    grid-column: 2;
+}
+
+.plyrInfoButton{
+    margin: 5px;
+    grid-column: 3;
+}
+
+.spacer {
+    grid-column: 1;
+}
